@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xaverius Pinontoan — Finance Portfolio</title>
+  <style>
+    :root {
+      --primary: #f2a900; /* Bitcoin Gold */
+      --dark: #0d0d0d;
+      --light: #fff;
+      --muted: #aaa;
+    }
+    * {margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+    body {
+      background: linear-gradient(180deg, var(--dark), #1a1a1a);
+      color: var(--light);
+      line-height:1.6;
+    }
+    a {text-decoration:none;color:inherit}
+
+    header {
+      background: linear-gradient(90deg,var(--dark), #1a1a1a);
+      padding:15px 60px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid rgba(255,255,255,0.1);
+      position:sticky;
+      top:0;
+      z-index:10;
+    }
+    header .logo {font-weight:700;font-size:20px;color:var(--primary)}
+    nav a {margin-left:25px;font-weight:500;color:var(--light);transition:0.3s}
+    nav a:hover {color:var(--primary)}
+
+    .hero {
+      text-align:center;
+      padding:100px 20px;
+      background:linear-gradient(135deg,var(--dark),#1a1a1a 60%, var(--primary));
+      color:var(--light);
+    }
+    .hero h1 {font-size:42px;margin-bottom:15px;color:var(--primary)}
+    .hero p {font-size:18px;color:#f5f5f5}
+
+    section {padding:70px 40px;max-width:1000px;margin:auto}
+    section h2 {text-align:center;font-size:28px;margin-bottom:30px;color:var(--primary)}
+
+    .about {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+    }
+    .about img {
+      width:100%;
+      border-radius:10px;
+      object-fit:cover;
+      box-shadow:0 4px 12px rgba(242,169,0,0.4);
+    }
+    .about-text h3 {color:var(--primary);margin-bottom:15px}
+    .about-text p {color:var(--muted);margin-bottom:10px}
+
+    ul {margin-top:10px;margin-left:20px;color:var(--light)}
+    ul li {margin-bottom:6px}
+
+    .card {
+      background:#1a1a1a;
+      padding:20px;
+      border-radius:8px;
+      box-shadow:0 2px 10px rgba(242,169,0,0.15);
+      margin-bottom:20px;
+    }
+    .card h3 {color:var(--primary);margin-bottom:10px}
+
+    .contact {text-align:center}
+    .btn {
+      display:inline-block;
+      background:var(--primary);
+      padding:12px 28px;
+      color:#000;
+      font-weight:600;
+      border-radius:30px;
+      transition:0.3s;
+    }
+    .btn:hover {background:#ffbb33;color:#111}
+
+    footer {
+      background:#0a0a0a;
+      padding:20px;
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+      border-top:1px solid rgba(255,255,255,0.1);
+      margin-top:50px;
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">X.A Vision</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Xaverius Pinontoan</h1>
+    <p>Finance Student • Economics • Leadership</p>
+  </section>
+
+  <section id="about" class="about">
+    <img src="fotoprofil.jpg" alt="Foto Xaverius Pinontoan">
+    <div class="about-text">
+      <h3>Profil Singkat</h3>
+      <p>Mahasiswa jurusan Keuangan & Investasi di Universitas Cakrawala dengan rekam jejak prestasi akademik dan kepemimpinan tingkat daerah, nasional, hingga internasional. 
+      Berpengalaman di olimpiade sains, kompetisi strategis, kepanduan, dan proyek kolaboratif lintas provinsi. 
+      Memiliki minat besar di bidang analisis data, manajemen proyek, dan pengembangan strategi bisnis berbasis riset.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Pendidikan</h2>
+    <div class="card">
+      <h3>Universitas Cakrawala</h3>
+      <p>S1 Keuangan & Investasi (2025–2029)</p>
+    </div>
+    <div class="card">
+      <h3>SMA Negeri 1 Bitung</h3>
+      <p>Jurusan IPA (2022–2025)</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Prestasi & Pengalaman</h2>
+    <div class="card">
+      <h3>Organisasi</h3>
+      <ul>
+        <li>Bendahara Ambalan SMAN 1 Bitung (2023/2024)</li>
+        <li>Ketua Kelas (2022–2025)</li>
+        <li>Wakil Ketua Iska (2024/2025)</li>
+        <li>Wakil Ketua Saka Bakti Husada Kota Bitung (2024/2026)</li>
+        <li>Dewan Kerja Daerah Sulawesi Utara (2020/2025)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Akademik & Sains</h3>
+      <ul>
+        <li>Peserta Olimpiade Sains Nasional (Astronomi & Biologi)</li>
+        <li>Peserta Pesta Sains Nasional (PSN) – Tingkat Nasional</li>
+        <li>Peserta Cerdas Cermat Merdeka – Provinsi Sulut</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Kepanduan & Ilmiah</h3>
+      <ul>
+        <li>Peserta Jota-Joti Internasional – beberapa award</li>
+        <li>Lolos seleksi Raimuna Nasional XII 2023 (Jakarta)</li>
+        <li>Peserta Science Camp Project di Hutan Tangkoko</li>
+        <li>Juara 2 Lomba Cepat Tepat Pramuka</li>
+        <li>Juara Umum Orientering Digital – Saka Bakti Husada</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Keterampilan</h2>
+    <ul>
+      <li>Analisis Data Dasar (Excel)</li>
+      <li>Word, Canva, Capcut, Figma</li>
+      <li>Manajemen Proyek & Presentasi</li>
+      <li>Orientering Digital</li>
+      <li>Bahasa: Indonesia (native), Inggris (menengah)</li>
+      <li>Kepemimpinan, Public Speaking, Problem Solving, Teamwork</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <a href="https://www.linkedin.com/in/xaverius-pinontoan-8662b0383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Ivander Daniel Napitupulu. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
